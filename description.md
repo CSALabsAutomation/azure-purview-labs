@@ -1,14 +1,14 @@
-In this lab, you will taken through a series of steps to implement key features of Azure Cosmos DB
+In this lab, you will taken through a series of steps to implement key features of Azure Purview
 
 ### Learning Objectives
 
-The objective of this lab is to provide participants solid understanding and experience of developing applications using Azure Cosmos DB.  The following are the main topics covered in the lab. 
+The objective of this lab is to provide participants solid understanding and experience of using Azure Purview.  The following are the main topics covered in the lab. 
 
-1. Cosmos DB Account creation,  partitioning, and resource governance for building and configuring scalable applications agnostic of a specific Cosmos DB API. 
-2. Create applications using Cosmos DB SQL API and Azure Cosmos DB .NET SDK for SQL API. 
-3. Write efficient Azure Cosmos DB SQL queries, create stored procedures, and apply appropriate index policies. 
-4. Implement data models, load data, distribute data, implement change feed, and optimize and maintain the solution.
+1. Create Microsoft Purview account.
+2. Create Collections, Register Sources and scan the assets.
+3. Adding Glossary terms, classification rules and scan rule sets.
+4. Adding Data Policy to the assets. 
 
 ### Intended Audience
 
-- Architects and developers responsible for designinging, building, and troubleshooting Cosmos DB solutions 
+Microsoft CSA Team members 
