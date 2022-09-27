@@ -103,7 +103,7 @@
         },
         "properties": {
             "publicNetworkAccess": "Enabled",
-            "managedResourceGroupName": "[format('pvlab-{0}-purview', parameters('purviewName'))]"
+            "managedResourceGroupName": "[format('managed-rg-{0}', parameters('purviewName'))]"
         }
       },
 
