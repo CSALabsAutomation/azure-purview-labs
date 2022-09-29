@@ -1,6 +1,0 @@
-title: Added Purview Permissions
-internal_name: Added Purview Permissions
-vendor: azure
-runtime: python3.8
-memory: 128
-timeout: 10
