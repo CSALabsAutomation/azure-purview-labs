@@ -33,3 +33,8 @@ In this lab, users will learn how to connect to the Microsoft Purview Portal.
    Browse to https://web.purview.azure.com, select your Purview account, and sign in to the workspace.
 
 4. After landing on to the Purview Workspace. Your Home Page looks like below.
+
+5. After landing on to the Purview Workspace. Go to **Data Map** tab on your left pane.
+
+6. Select **Collections** -> click on your root collection [**pvlab-{randomid}-purview**] -> Role Assignments tab -> Check whether username is added to all the roles.
+   If not, click on Add role and give your microsoft account id or name.
