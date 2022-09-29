@@ -22,13 +22,21 @@ In this demo, you'll walk through how to register and scan data sources.
 
 2. Click on the **Register icon** in the Contoso Collection.
 
+   ![register](./assets/3-1_register "register")
+
 3. Search for **Azure SQL Database** in the Register sources blade.
 
+   ![addSqldb](./assets/3-2_add_sqldb "add sqldb")
+
 4. Fill in the data source name, select the Azure subscription and sql server name where the database is located.
+
+   ![name](./assets/3-3_name "name")
 
 5. Select a collection: ```pvlab-{randomid}-purview>Contoso``` and click **Register**.
 
 6. The created data source will be put under the selected collection, **Contoso**. Click **View details** to see the data source.
+
+   ![viewSource](./assets/3-4_view_source "view source")
 
 ## Scanning SQL DB:
 
@@ -37,28 +45,59 @@ In this demo, you'll walk through how to register and scan data sources.
 2. Go to the **SQL Server**. Navigate to **Azure Active Directory**. Click **Set Admin**.
    Provide the Purview account **Managed Identity, [pvlab-{randomid}-purview]** and **Save**.
 
+   ![admin](./assets/3-5_admin "admin")
+
+   ![setAdmin](./assets/3-6_set_admin "set admin")
+
 3. Go to the **SQL Database** in the **Azure Portal**. Click on **Set Firewall**.
    **Add Client IPv4 address**, **toggle on** the **Exceptions**, allowing azure resources and services to access the server and **Save**.
+   
+   ![firewall](./assets/3-7_firewall "firewall")
+
+   ![setFirewall](./assets/3-8_set_firewall "set firewall")
 
 4. Now go to **Purview workspace**, Click **New Scan** in the registered SQL DB source.
+   
+   ![scan](./assets/3-9_scan "scan")
 
 5. Provide the Scan name, Database name, Credential, select a collection.
-
+   
+   ![scanSettings](./assets/3-10_scan_settings "scan settings")
+   
 6. **Test Connection**, once the scan is **Successful**, click **Continue**.
 
 > If the Scan is failed, then you forget to add the client ip address to Firewall in Azure SQL database and set admin in sql server.
 
 7. In the **Scope your scan** blade, Select the AzureSQLDatabase and **Continue**.
+   
+   ![scope](./assets/3-11_scope "scope")
 
 8. Select the _System Default_ Scan rule set and **Continue**.
 
+   ![scanRule](./assets/3-12_scan_rule "scan rule")
+   
 9. Set the scan trigger as **Once** and **Continue**.
-
+   
+   ![trigger](./assets/3-13_trigger "trigger")
+   
 > Now you can either select a recurring scan or one time, in our case we will select “ONCE.” 
 > In case you have selected recurring, it will be scanning all assets in that scope based on the schedule you provide. 
 
 10. Review, Save and Run the scan.
 
+    ![reviewScan](./assets/3-14_review_scan "review scan")
+    
 11. You can view the details of the scan in the Source page.
 
+    ![viewDetails](./assets/3-15_view_details "view details")
+    
+    ![scans](./assets/3-16_scans "scans")
+
 12. Once the scan is successfully completed, view the number of assets in the **Overview** section.
+
+13. The source registered in the *Contoso* collection can also be moved to anyother collection by the *Move* option provided in the details page.
+
+    ![move](./assets/3-17_move "move")
+    
+    ![moveCollection](./assets/3-18_move_collection "move collection")
+
