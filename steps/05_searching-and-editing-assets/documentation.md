@@ -93,7 +93,7 @@ In this module, you'll learn to edit technical metadata by adding definitions an
 
 While the search experience is ideal for keyword based discovery, the Microsoft Purview Governance Portal allows alternate methods of browsing assets (i.e. by collection OR by source type).
 
-1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Catalog** and click **Browse**.
+1. Open the **Microsoft Purview Governance Portal**, click on  **Browse assets** in the homepage.
 
     ![browse](./assets/5-8_browse.jpg "browse")
     
