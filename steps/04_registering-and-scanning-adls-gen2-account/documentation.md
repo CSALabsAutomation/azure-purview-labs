@@ -1,4 +1,4 @@
-# Module 02A - Register & Scan ADLS Gen2 Account
+# Registering & Scanning ADLS Gen2 Account
 
 ## Introduction
 To populate Microsoft Purview with assets for data discovery and understanding, you must register sources that exist across our data estate so that we can leverage the out of the box scanning capabilities. Scanning enables Microsoft Purview to extract technical metadata such as the fully qualified name, schema, data types, and apply classifications by parsing a sample of the underlying data.
