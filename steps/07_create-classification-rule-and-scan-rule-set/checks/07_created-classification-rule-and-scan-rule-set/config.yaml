@@ -1,0 +1,6 @@
+title: Created Classification Rule and Scan Rule Set
+internal_name: Created Classification Rule and Scan Rule Set
+vendor: azure
+runtime: python3.8
+memory: 128
+timeout: 10
