@@ -45,7 +45,7 @@ which helps to relate technical metadata to business metadata.
 
    ![systemTemplate](./assets/6-3_System_template.jpg "system template")
 
-4. Change the **Status** of the term to `Approved` and then **copy** and **paste** the values below into the appropriate field, then click **Create**.
+4. Change the **Status** of the term to `Approved` and then fill the values below into the appropriate field, then click **Create**.
    Field | Definition
    --- | ---
 	 Name | ``Contoso Parent``
@@ -205,7 +205,7 @@ which helps to relate technical metadata to business metadata.
    
       ![search](./assets/6-20_search.jpg "search")
       
-   2. Click ** Edit**.
+   2. Click **Edit**.
    
       ![edit](./assets/6-21_edit.jpg "edit")
 
@@ -216,3 +216,5 @@ which helps to relate technical metadata to business metadata.
    4. Click on the hyperlinked term name to view the glossary term. You can see that **No Glossary Terms** available.
 
       ![check](./assets/6-26_check.jpg "check")
+      
+   [⏮️ Previous Module](../05_searching-and-editing-assets/documentation.md) - [Next Module ⏩](../07_create-classification-rule-and-scan-rule-set/documentation.md)
