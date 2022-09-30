@@ -101,5 +101,5 @@ This Step is already done for you. To confirm the file is present inside ADLS Ge
     ![scanstatus](./assets/4-17_scan_status.jpg "scanstatus")
     
     
-[< Previous Module](../03_registering-and-scanning-sql-db-source/documentation.md) - **[Home](../README.md)** - [Next Module >](../05_searching-and-editing-assets/documentation.md)
+[ ⏮️ Previous Module](../03_registering-and-scanning-sql-db-source/documentation.md) - [Next Module ⏩](../05_searching-and-editing-assets/documentation.md)
 
