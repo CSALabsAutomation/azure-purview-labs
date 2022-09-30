@@ -1,5 +1,5 @@
 # Search & Browse
-## Introduction
+
 Once sources have been registered and scanned, the underlying data catalog will begin to populate with assets that represent real-world objects (e.g. a table in an Azure SQL Database, a Power BI report, etc.) The surfacing of these assets via Microsoft Purview's search experience helps empower data consumers to find data assets that matters to them.
 
 In this module, you'll learn to edit technical metadata by adding definitions and classifications to data attributes, such as tables and columns. You'll learn to assign technical ownership by linking technical attributes to contact persons. You'll learn to use classifications to mark data. All these activities, such as categorizing data, will help you to better manage your data.
@@ -141,16 +141,4 @@ Microsoft Purview allows us to perform certain operations (add/replace/remove) a
     ![deselect](./assets/5-18_deselect.jpg "deselect")
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
-    
-    
+  [ ⏮️ Previous Module](../04_registering-and-scanning-adls-gen2-account/documentation.md) - [Next Module ⏩](../06_maintaining-glossary-by-creating-and-importing-terms/documentation.md)
