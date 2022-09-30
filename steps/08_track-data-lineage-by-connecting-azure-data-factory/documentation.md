@@ -17,7 +17,7 @@ In this demo, we will see how to build a Lineage Graph using lineage metadata co
 
 1.	An *Azure account* with an active *subscription*.
 2.	A Microsoft Purview account
-3.	An Azure Data Lake Storage Gen2 Account, Azure SQL Database, Azure Data Factory Account 
+3.	An Azure Data Lake Storage Gen2 Account, Azure Data Factory Account 
 4.	**Collection admin** role on the root collection.
 
 ## Objectives
@@ -154,3 +154,4 @@ In this demo, we will see how to build a Lineage Graph using lineage metadata co
       - **_Process_**: An activity or transformation performed on a dataset is called a process. 
         _For example_, Azure Data Factory Copy activity or a Data Share snapshot. In the lineage section of Purview, processes are represented by round-edged boxes.
 
+[ ⏮️ Previous Module](../07_create-classification-rule-and-scan-rule-set/documentation.md) - [Next Module ⏭️](../09_view-data-insights/documentation.md)
