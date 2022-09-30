@@ -7,6 +7,11 @@ In this lab, users will learn how to connect to the Microsoft Purview Portal.
 - An *Azure account* with an *active subscription*.
 - Users should have *User Admin Access* in order to set Managed Identity within resources.
 
+## Objectives:
+
+* Getting started with Purview
+* Assigning Roles in Root Collection Role Assignment
+
 ## Procedure:
 
 1. Go to the resource group deployed in the Azure Portal and check the resources.
