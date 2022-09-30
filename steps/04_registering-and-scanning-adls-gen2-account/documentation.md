@@ -1,9 +1,9 @@
 # Registering & Scanning ADLS Gen2 Account
 
 ## Introduction
-To populate Microsoft Purview with assets for data discovery and understanding, you must register sources that exist across our data estate so that we can leverage the out of the box scanning capabilities. Scanning enables Microsoft Purview to extract technical metadata such as the fully qualified name, schema, data types, and apply classifications by parsing a sample of the underlying data.
+As Scanning enables Microsoft Purview to extract technical metadata. In the previous module, we have seen about scannning a SQL Database.
 
-In this module, you'll walk through how to register and scan ADLS Gen2 account. You'll register a ADLS Gen2 account and configure scanning. By the end of this module you'll have technical metadata, such as schema information, stored in Purview. You can use this to start linking to business terms, allowing your team members to easier find data.
+In this module, you'll walk through how to register and scan ADLS Gen2 account. You'll register a ADLS Gen2 account and configure scanning. 
 
 ## Prerequisites
 
@@ -11,13 +11,16 @@ In this module, you'll walk through how to register and scan ADLS Gen2 account. 
 2.	An Azure Data Lake Storage Gen2 Account.
 3.	An Azure Microsoft Purview account.
 4.	Upload BingCoronavirusQuerySet files to Gen2 storage in Azure Purview.
-
+5.	*Collection Admin, Data Source Admin and Data Reader* access in the Purview Account.
 
 ## Objectives
 
-* Register and scan an Azure Data Lake Storage Gen2 account using the Microsoft Purview managed identity.
+* Grant the Microsoft Purview Managed Identity Access
+* Upload Data to Azure Data Lake Storage Gen2 Account
+* Register a Source (ADLS Gen2)
+* Scan a Source with the Microsoft Purview Managed Identity
 
-## 1. Grant the Microsoft Purview Managed Identity Access
+### Grant the Microsoft Purview Managed Identity Access
 
 1. Navigate to your Azure Data Lake Storage Gen2 account (e.g. `pvlab{randomId}adls`) and select **Access Control (IAM)** from the left navigation menu. Click **Add role assignment**.
 
@@ -41,14 +44,14 @@ In this module, you'll walk through how to register and scan ADLS Gen2 account. 
 
     ![confirm](./assets/4-10_confirm.jpg "confirm")
     
-## 2. Upload Data to Azure Data Lake Storage Gen2 Account
+### Upload Data to Azure Data Lake Storage Gen2 Account
 
 This Step is already done for you. To confirm the file is present inside ADLS Gen2 Storage account, Navigate to your Azure Data Lake Storage Gen2 account (e.g. `pvlab{randomId}adls`) and select **Containers** from the left navigation menu. Click on **raw** container. Inside you will see a folder with the name **BingCoronavirusQuerySet**.
 
 ![files](./assets/4-0_raw.jpg "files")
     
 
-## 3. Register a Source (ADLS Gen2)
+### Register a Source (ADLS Gen2)
 
 1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources**, and click on **Register**.
 
@@ -63,7 +66,7 @@ This Step is already done for you. To confirm the file is present inside ADLS Ge
     ![registeradls](./assets/4-3_register_adls.jpg "registeradls")
 
 
-## 4. Scan a Source with the Microsoft Purview Managed Identity
+### Scan a Source with the Microsoft Purview Managed Identity
 
 1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources**, and within the Azure Data Lake Storage Gen2 tile, click the **New Scan** button.
 
@@ -97,37 +100,6 @@ This Step is already done for you. To confirm the file is present inside ADLS Ge
 
     ![scanstatus](./assets/4-17_scan_status.jpg "scanstatus")
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+[< Previous Module](../steps/03_registering-and-scanning-sql-db-source/documentation.md) - **[Home](../README.md)** - [Next Module >](../steps/05_searching-and-editing-assets/documentation.md)
 
