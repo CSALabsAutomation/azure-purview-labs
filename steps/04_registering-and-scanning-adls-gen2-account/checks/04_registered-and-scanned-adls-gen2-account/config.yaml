@@ -1,0 +1,6 @@
+title: Registered and Scanned ADLS Gen2 Account
+internal_name: Registered and Scanned ADLS Gen2 Account
+vendor: azure
+runtime: python3.8
+memory: 128
+timeout: 10
