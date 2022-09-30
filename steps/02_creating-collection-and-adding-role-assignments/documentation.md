@@ -107,3 +107,5 @@ You can see that the user has been removed from the inherited roles in data sour
 Click on a Role -> Click the ``x`` icon. The user will be removed.
 
 ![addOrRemove](./assets/2-10_add_or_remove.jpg "add or remove")
+
+[ ⏮️ Previous Module](../01_connecting-to-microsoft-purview-portal/documentation.md) - [Next Module ⏭️](../03_registering-and-scanning-sql-db-source/documentation.md)
