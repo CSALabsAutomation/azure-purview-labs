@@ -1,4 +1,4 @@
-# Registering a Data Source
+# Registering & Scanning SQL Database
 
 To populate Microsoft Purview with assets for data discovery and understanding, we must register sources so that we can leverage the scanning capabilities. 
 Scanning enables Microsoft Purview to extract technical metadata such as the fully qualified name, schema and data types.
