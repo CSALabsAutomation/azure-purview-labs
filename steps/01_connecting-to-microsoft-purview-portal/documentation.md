@@ -60,4 +60,4 @@ In this lab, users will learn how to connect to the Microsoft Purview Portal.
    
    	![addRoles](./assets/1-4_add_roles.jpg "add roles")
 	
-[Next Module ⏭️](../02_creating-collection-and-adding-role-assignments/documentation.md)
+                                                                                                                              [Next Module ⏭️](../02_creating-collection-and-adding-role-assignments/documentation.md)
