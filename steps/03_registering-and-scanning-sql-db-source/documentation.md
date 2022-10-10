@@ -95,7 +95,7 @@ In this demo, you'll walk through how to register and scan data sources.
 
 12. Once the scan is successfully completed, view the number of assets in the **Overview** section.
 
-13. The source registered in the *Contoso* collection can also be moved to anyother collection by the *Move* option provided in the details page.
+13. The source registered in the *Contoso* collection can also be moved to any other collection by the *Move* option provided in the details page.
 
     ![move](./assets/3-17_move.jpg "move")
     
