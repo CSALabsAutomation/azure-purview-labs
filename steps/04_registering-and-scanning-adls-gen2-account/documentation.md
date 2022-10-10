@@ -1,7 +1,7 @@
 # Registering & Scanning ADLS Gen2 Account
 
 ## Introduction
-As Scanning enables Microsoft Purview to extract technical metadata. In the previous module, we have seen about scannning a SQL Database.
+In the previous module, we have seen about scannning a SQL Database.
 
 In this module, you'll walk through how to register and scan ADLS Gen2 account. You'll register a ADLS Gen2 account and configure scanning. 
 
