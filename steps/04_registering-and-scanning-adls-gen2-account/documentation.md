@@ -53,7 +53,7 @@ This Step is already done for you. To confirm the file is present inside ADLS Ge
 
 ### Register a Source (ADLS Gen2)
 
-1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources**, and click on **Register**.
+1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources** > **Contoso** collection, click on **Register** icon.
 
     ![register](./assets/4-1_register.jpg "register")
 
