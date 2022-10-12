@@ -49,7 +49,7 @@ In this demo, you'll walk through how to register and scan data sources.
 
    ![setAdmin](./assets/3-6_set_admin.jpg "set admin")
 
-3. Go to the **SQL Database** in the **Azure Portal**. Click on **Set Firewall**.
+3. Go to the **SQL Database** in the **Azure Portal**. Click on **Set Firewall**. Under **Firewall Rules** tab,
    **Add Client IPv4 address**, **toggle on** the **Exceptions**, allowing azure resources and services to access the server and **Save**.
    
    ![firewall](./assets/3-7_firewall.jpg "firewall")
