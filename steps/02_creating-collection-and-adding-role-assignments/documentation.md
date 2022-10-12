@@ -104,6 +104,10 @@ You can see that the user has been removed from the inherited roles in data sour
 
 > For lab purposes, you make sure that you **turn off** the **Restrict Access** toggle again.
 
+![toggleoff](./assets/2-9_2_toggle.jpg "toggleoff")
+
+![toggleoff2](./assets/2-9_3_toggle.jpg "toggleoff2")
+
 
 
 ### Removing Role Assignments:
