@@ -50,7 +50,7 @@ In this demo, we will see how to build a Lineage Graph using lineage metadata co
 
 ## Copy Data using Azure Data Factory
 
-> In this step, we're gonna perform the **_Merged Copy activity_** on all the 2020 .tsv files of BingCoronavirusQuerySet Folder and save it as a one single *parquet* file in the raw container.
+> In this step, we're going to perform the **_Merged Copy activity_** on all the 2020 .tsv files of BingCoronavirusQuerySet Folder and save it as a one single *parquet* file in the raw container.
 
 1. Within the Azure Portal, navigate to your Azure Data Factory resource, ``pvlab-{randomid}-adf`` and click **Open Azure Data Factory Studio**.
 
