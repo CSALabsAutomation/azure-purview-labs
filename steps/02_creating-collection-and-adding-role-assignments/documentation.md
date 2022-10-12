@@ -102,6 +102,10 @@ Toggle on the **Restrict Inherited Permissions** option. Click **Restrict Access
 
 You can see that the user has been removed from the inherited roles in data source admins, data curators, data readers, data share contributors, insights readers, policy authors and workflow admins.
 
+> For lab purposes, you make sure that you **turn off** the **Restrict Access** toggle again.
+
+
+
 ### Removing Role Assignments:
 
 Click on a Role -> Click the ``x`` icon. The user will be removed.
