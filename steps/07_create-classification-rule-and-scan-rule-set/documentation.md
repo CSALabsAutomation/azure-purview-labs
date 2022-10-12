@@ -73,7 +73,7 @@ In this module you will learn how to create a custom classification.
 
 5. Select the data pattern associated to the **Handle** column and click **Add to patterns**.
 
-6. Modify the Data Pattern by replacing the plus symbol (`+`) with with `{5,15}`.
+6. Modify the Data Pattern by replacing the plus symbol (`+`) with `{5,15}`.
 
     * The plus symbol (`+`) indicates one or more characters matching the preceding item. This may lead to false positives as it would allow for an unlimited number of alphanumeric characters. 
     * Twitter handles must be a minimum of 5 and a maximum of 15 characters.
@@ -183,4 +183,4 @@ In this module you will learn how to create a custom classification.
 
     ![checkSchema](./assets/7-27_check_schema.jpg "check schema")
     
-[ ⏮️ Previous Module](../06_maintaining-glossary-by-creating-and-importing-terms/documentation.md) - [Next Module ⏩](../08_track-data-lineage-by-connecting-azure-data-factory/documentation.md)
+[ ⏪ Previous Module](../06_maintaining-glossary-by-creating-and-importing-terms/documentation.md) - [Next Module ⏩](../08_track-data-lineage-by-connecting-azure-data-factory/documentation.md)
