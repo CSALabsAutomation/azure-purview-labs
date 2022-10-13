@@ -114,7 +114,7 @@ Then you'll use Microsoft Purview to scan and classify that data.
 
 23.	Click Finish
 
-[click_finish](./assets/22_click_finish.jpg "click finish")
+![click_finish](./assets/22_click_finish.jpg "click finish")
 
 24.	After this the Integration runtime will start initializing, this can take a while.
 
