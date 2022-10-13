@@ -1,4 +1,4 @@
-# Adding On Premise SQL Server as an asset to Azure Purview
+# Registering and Scanning an on-premises SQL Server Instance
 
 ## Introduction
 For this scenario, you'll use a self-hosted integration runtime to connect to data on an on-premises SQL server. 
@@ -36,7 +36,7 @@ Then you'll use Microsoft Purview to scan and classify that data.
 
 ![setup](./assets/3_setup.jpg "setup")
 
-4.	In Step 1 under the Manual setup section, right click on Download and install integration runtime link > :attach Copy link, paste it in a notepad and keep it handy. We’ll use it later.
+4.	Under the Manual setup section, step 1, right click on **Download and install integration runtime** link > 🔗**Copy link**, paste it in a notepad and keep it handy. We’ll use it later.
 
 5.	Likewise, copy either of the authentication keys in step 2 [Key1 / Key2] and paste it in a notepad for future use.
 
