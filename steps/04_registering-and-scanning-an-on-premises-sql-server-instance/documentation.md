@@ -110,11 +110,11 @@ Then you'll use Microsoft Purview to scan and classify that data.
 
 22.	Paste the authentication key which we have copied earlier from the notepad and click on register.
 
-![click_finish](./assets/22_click_finish.jpg "click finish")
+![paste_key](./assets/23_paste_key.jpg "paste key")!
 
 23.	Click Finish
 
-![paste_key](./assets/23_paste_key.jpg "paste key")
+[click_finish](./assets/22_click_finish.jpg "click finish")
 
 24.	After this the Integration runtime will start initializing, this can take a while.
 
