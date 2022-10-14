@@ -1,4 +1,4 @@
-# Collections in Azure Purview
+# Creating Collection and Adding Role Assignments
 
 Collections are Microsoft Purview's tool to manage ownership and access control across assets, sources and information.
 They also organize your sources and assets into categories that are customized to match your management experience with your data.
