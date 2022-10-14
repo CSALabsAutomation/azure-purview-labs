@@ -1,0 +1,6 @@
+title: Created and Managed Data Policy
+internal_name: Created and Managed Data Policy
+vendor: azure
+runtime: python3.8
+memory: 128
+timeout: 10
