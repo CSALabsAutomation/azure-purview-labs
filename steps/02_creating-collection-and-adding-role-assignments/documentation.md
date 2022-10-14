@@ -118,4 +118,4 @@ You can remove any role, but don't forget to reassign it because all roles are r
 
 ![addOrRemove](./assets/2-10_add_or_remove.jpg "add or remove")
 
-[ ⏮️ Previous Module](../01_connecting-to-microsoft-purview-portal/documentation.md) - [Next Module ⏭️](../03_registering-and-scanning-sql-db-source/documentation.md)
+[ ⏮️ Previous Module](../01_connecting-to-microsoft-purview-portal/documentation.md) - [Next Module ⏭️](../03_registering-and-scanning-sql-db-source-and-adls-gen2-account/documentation.md)
