@@ -56,7 +56,7 @@ View key metrics about your data estate's health and performance.
 
     **Data estate health**
 
-    ![dataEstateHealth](./assets/9-2_data_estate_health.jpg "data estate health")")
+    ![dataEstateHealth](./assets/9-2_data_estate_health.jpg "data estate health")
 
     **Asset curation**
 
