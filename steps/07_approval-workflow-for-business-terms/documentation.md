@@ -98,7 +98,7 @@ This step will take you through the creation and management of approval workflow
 
     > Likewise, we can create workflows for updating, deleting and importing terms too.
 
-### B.Workflow Runs
+### B. Workflow Runs
 
 1. To view workflow runs you triggered, go to Workflow Runs section under Workflow in Data Management Center. You'll be presented with the list of workflow runs and their statuses. Select a workflow name to see the details of the workflow run.
 
@@ -106,13 +106,13 @@ This step will take you through the creation and management of approval workflow
 
 	![applyChanges](./assets/18_apply_changes.jpg "apply changes")
 
-### C.History of Workflow requests
+### C. History of Workflow requests
 
 All the completed approvals and tasks are moved to this tab in Requests and Approvals section.
 
 ![workflowRuns](./assets/19_workflow_runs.jpg "workflow runs")
 
-### D.Workflow options
+### D. Workflow options
 
 ![history](./assets/20_history.jpg "history")
 
