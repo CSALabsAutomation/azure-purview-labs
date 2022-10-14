@@ -1,4 +1,4 @@
-# Business Glossary
+# Maintaining Glossary by Creating and Importing Terms
 
 A glossary provides vocabulary for business users. 
 It consists of business terms that can be related to each other and allows them to be categorized so that they can be understood in different contexts.
@@ -217,4 +217,4 @@ which helps to relate technical metadata to business metadata.
 
       ![check](./assets/6-26_check.jpg "check")
       
-   [⏮️ Previous Module](../05_searching-and-editing-assets/documentation.md) - [Next Module ⏩](../07_create-classification-rule-and-scan-rule-set/documentation.md)
+   [⏮️ Previous Module](../05_searching-and-editing-assets/documentation.md) - [Next Module ⏭️ ](../07_approval-workflow-for-business-terms/documentation.md)
