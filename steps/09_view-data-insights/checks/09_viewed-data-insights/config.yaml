@@ -1,0 +1,6 @@
+title: Viewed Data Insights
+internal_name: Viewed Data Insights
+vendor: azure
+runtime: python3.8
+memory: 128
+timeout: 10
