@@ -1,4 +1,4 @@
-# Connecting to the Microsoft Purview Account
+# Connecting to the Microsoft Purview Portal
 
 In this lab, users will learn how to connect to the Microsoft Purview Portal.
 
