@@ -1,4 +1,4 @@
-# Search & Browse
+# Searching and Editing Assets
 
 Once sources have been registered and scanned, the underlying data catalog will begin to populate with assets that represent real-world objects (e.g. a table in an Azure SQL Database, a Power BI report, etc.) The surfacing of these assets via Microsoft Purview's search experience helps empower data consumers to find data assets that matters to them.
 
@@ -141,4 +141,4 @@ Microsoft Purview allows us to perform certain operations (add/replace/remove) a
     ![deselect](./assets/5-18_deselect.jpg "deselect")
 
 
-  [ ⏮️ Previous Module](../04_registering-and-scanning-adls-gen2-account/documentation.md) - [Next Module ⏩](../06_maintaining-glossary-by-creating-and-importing-terms/documentation.md)
+  [ ⏮️ Previous Module](../04_registering-and-scanning-adls-gen2-account/documentation.md) - [Next Module ⏭️ ](../06_maintaining-glossary-by-creating-and-importing-terms/documentation.md)
