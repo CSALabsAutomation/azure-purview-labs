@@ -1,54 +1,31 @@
-$WorkSpace = Get-AzResource -ResourceGroupName az-lab-purview -Resourcetype Microsoft.Purview/accounts
+$WorkSpace = Get-AzResource -ResourceGroupName az-purview-labs -Resourcetype Microsoft.Purview/accounts
 $WorkSpacename = $WorkSpace.Name
 $TakeEndpoint = 'https://'+$WorkSpacename+'.purview.azure.com'
-$DataSource = Get-AzPurviewDataSource -Endpoint $TakeEndpoint
-
-foreach($Sourcesq in $DataSource)
-{
-    if($Sourcesq.Name -like "AzureSqlDatabase*")
-    {
-        $Sourcesql = $Sourcesq.Name
-    }
-}
-$DataSourceValidate = Get-AzPurviewDataSource -Endpoint $TakeEndpoint -Name $Sourcesql
-if($DataSourceValidate){
-    Write-Host "SQL DB is Registered"
+$DataSource1 = Get-AzPurviewDataSource -Endpoint $TakeEndpoint -Name 'Sql-db'
+if($DataSource1){
+    Write-Host "SQL Database is Registered"
 }
 else{
-    Write-Host "SQL DB is not Registered"
+    Write-Host "SQL Database is not Registered"
 }
-$SourceSqlscan = Get-AzPurviewScan -Endpoint $TakeEndpoint -DataSourceName $Sourcesql
-if($SourceSqlscan){
-    Write-Host "SQL DB Scan is succeeded"
+$SourceSqlDatabasescan = Get-AzPurviewScan -Endpoint $TakeEndpoint -DataSourceName 'Sql-db' -Name 'Scan-db'
+if($SourceSqlServerscan){
+    Write-Host "SQL Database Scan is succeeded"
 }
 else{
-    Write-Host "SQL DB Scan is not succeeded"
+    Write-Host "SQL Database Scan is not succeeded"
 }
 
-foreach($Sourceh in $DataSource)
-{
-    if($Sourceh.Name -like "AzureDataLakeStorage*")
-    {
-        $Sourceadls = $Sourceh.Name
-    }
-}
-$DataSourceValidate = Get-AzPurviewDataSource -Endpoint $TakeEndpoint -Name $Sourceadls
-if($DataSourceValidate){
-    Write-Host "ADLS Gen2 is Registered"
+
+$DataSource2 = Get-AzPurviewDataSource -Endpoint $TakeEndpoint -Name 'Adls-Gen2'
+if($DataSource2){
+    Write-Host "ADLS Gen2 Account is Registered"
 }
 else{
-    Write-Host "ADLS Gen2 is not Registered"
+    Write-Host "ADLS Gen2 Account is not Registered"
 }
-$SourceAdlscans = Get-AzPurviewScan -Endpoint $TakeEndpoint -DataSourceName $Sourceadls
-foreach($Scan in $SourceAdlscans)
-{
-    if($Scan.scanRulesetName -like "AdlsGen2")
-    {
-        $AdlsScan = $Scan.Name
-    }
-}
-$SourceAdlscan = Get-AzPurviewScan -Endpoint $TakeEndpoint -DataSourceName $Sourceadls -Name $AdlsScan
-if($SourceAdlscan){
+$SourceAdlsscan = Get-AzPurviewScan -Endpoint $TakeEndpoint -DataSourceName 'Adls-Gen2' -Name 'Scan-adls'
+if($SourceAdlsscan){
     Write-Host "ADLS Gen2 Scan is succeeded"
 }
 else{
