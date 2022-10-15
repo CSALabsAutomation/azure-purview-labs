@@ -30,7 +30,7 @@ In this demo, you'll walk through how to register and scan data sources.
 
    ![addSqldb](./assets/3-2_add_sqldb.jpg "add sqldb")
 
-4. Fill in the data source name, select the Azure subscription and sql server name where the database is located.
+4. Fill in the data source **name** as `Sqldb`, select the Azure subscription and sql server name where the database is located.
 
    ![name](./assets/3-3_name.jpg "name")
 
@@ -62,7 +62,7 @@ In this demo, you'll walk through how to register and scan data sources.
    
    ![scan](./assets/3-9_scan.jpg "scan")
 
-5. Provide the Scan name, Database name, Credential, select a collection.
+5. Provide the Scan **name** as `Scan-db`, Database name, Credential, select a collection.
    
    ![scanSettings](./assets/3-10_scan_settings.jpg "scan settings")
    
@@ -148,14 +148,14 @@ This Step is already done for you. To confirm the file is present inside ADLS Ge
 
     ![adlsgen2](./assets/4-2_adls_gen2.jpg "adlsgen2")
 
-3. Select the **Azure subscription**, **Storage account name**, **Collection**, and click **Register**.
+3. Fill in the **name** as `ADLS-Gen2`. Select the **Azure subscription**, **Storage account name**, **Collection**, and click **Register**.
 
     ![registeradls](./assets/4-3_register_adls.jpg "registeradls")
 
 
 ### Scan a Source with the Microsoft Purview Managed Identity
 
-1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources**, and within the Azure Data Lake Storage Gen2 tile, click the **New Scan** button.
+1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources**, and within the Azure Data Lake Storage Gen2 tile, click the **New Scan** button. Give the **Scan name** as `Scan-adls`.
 
     ![scan](./assets/4-5_scan.jpg "scan")
 
