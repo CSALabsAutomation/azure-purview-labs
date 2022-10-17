@@ -1,4 +1,8 @@
-$WorkSpace = Get-AzResource -ResourceGroupName az-purview-final -Resourcetype Microsoft.Purview/accounts
+param(
+    [string]
+    $Resourcegroupname
+)
+$WorkSpace = Get-AzResource -ResourceGroupName $Resourcegroupname -Resourcetype Microsoft.Purview/accounts
 $WorkSpacename = $WorkSpace.Name
 $TakeEndpoint = 'https://'+$WorkSpacename+'.purview.azure.com'
 $DataSource = Get-AzPurviewDataSource -Endpoint $TakeEndpoint -Name 'SqlServer-onprem'
