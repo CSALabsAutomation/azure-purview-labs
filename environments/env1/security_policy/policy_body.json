@@ -61,7 +61,12 @@
         "Microsoft.Authorization",
         "Microsoft.ManagedIdentity",
         "Microsoft.KeyVault",
-        "Microsoft.Storage"
+        "Microsoft.Storage",
+        "Microsoft.Sql",
+        "Microsoft.Purview",
+        "Microsoft.DataFactory",
+        "Microsoft.Compute",
+        "Microsoft.SqlVirtualMachine"
       ]
     }
   }
