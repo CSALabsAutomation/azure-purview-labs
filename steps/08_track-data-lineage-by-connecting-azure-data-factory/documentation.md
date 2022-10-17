@@ -106,7 +106,7 @@ In this demo, we will see how to build a Lineage Graph using lineage metadata co
 
     ![fileFormat](./assets/8-18_file_format.jpg "file format")
 
-14. Leave the default settings and click **Next**.
+14. Give the **Task Name** as `CopyPipeline_as6` and click **Next**.
 
     ![19next](./assets/8-19_next.jpg "19next")
 
