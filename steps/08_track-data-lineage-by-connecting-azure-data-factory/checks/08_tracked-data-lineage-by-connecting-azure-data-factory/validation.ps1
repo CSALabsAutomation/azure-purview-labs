@@ -1,9 +1,8 @@
 param(
     [string]
     $Resourcegroupname
-    $Subscriptionid
 )
-$WorkSpace = Get-AzResource -ResourceGroupName $Resourcegroupname -Resourcetype Microsoft.DataFactory/factories
+$WorkSpace = Get-AzResource -ResourceGroupName $Resourcegroupname -Resourcetype Microsoft.Purview/accounts
 $WorkSpacename = $WorkSpace.Name
 
 $token = (Get-AzAccessToken -Resource "https://purview.azure.net").Token
