@@ -183,5 +183,5 @@ In this module you will learn how to create a custom classification.
 
     ![checkSchema](./assets/7-27_check_schema.jpg "check schema")
     
-[ ⏮️ Previous Module](../06_approval-workflow-for-business-terms/documentation.md) - [Next Module ⏭️](../08_track-data-lineage-by-connecting-azure-data-factory/documentation.md)
+[ ⏮️ Previous Module](../06_approval-workflow-for-business-terms/documentation.md) - [Next Module ⏭️](../08_exploring-data-lineage-by-connecting-azure-data-factory/documentation.md)
 
