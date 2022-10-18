@@ -11,7 +11,7 @@ The objective of this lab is to provide participants solid understanding and exp
 5. Maintaining Glossary by creating and importing terms
 6. Approval Workflow for Business Terms
 7. Create Classification rule and Scan rule set
-8. Track Data Lineage
+8. Exploring Data Lineage by Connecting Azure Data Factory
 9. View Data Insights
 10. Create and Manage Data Policy
 
