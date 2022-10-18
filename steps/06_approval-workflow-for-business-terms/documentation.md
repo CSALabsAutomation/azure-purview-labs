@@ -39,7 +39,7 @@ This step will take you through the creation and management of approval workflow
     Here, let’s select **Create glossary term** using workflow.
 
   	![createWorkflow](./assets/3_create_workflow.jpg "create workflow")
-6. Next, enter a workflow name and optionally add a description. Then select **Continue**.
+6. Next, enter a workflow name `Create glossary term` and optionally add a description. Then select **Continue**.
 
   	![createCred](./assets/4_create_cred.jpg "create cred")
 7. You'll now be presented with a canvas where the selected template is loaded by default.
