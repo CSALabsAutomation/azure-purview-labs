@@ -1,6 +1,0 @@
-title: Tracked Data Lineage by Connecting Azure Data Factory
-internal_name: Tracked Data Lineage by Connecting Azure Data Factory
-vendor: azure
-runtime: python3.8
-memory: 128
-timeout: 10
