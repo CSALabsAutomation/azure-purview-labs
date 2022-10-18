@@ -202,4 +202,4 @@ View key metrics about the sensitivity labels applied to sources, files, and tab
     - Number of Files by Label
     - Number of Tables by Label
 
-[ ⏮️ Previous Module](../08_track-data-lineage-by-connecting-azure-data-factory/documentation.md) - [Next Module ⏭️](../10_create-and-manage-data-policy/documentation.md)
+[ ⏮️ Previous Module](../08_exploring-data-lineage-by-connecting-azure-data-factory/documentation.md) - [Next Module ⏭️](../10_create-and-manage-data-policy/documentation.md)
