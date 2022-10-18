@@ -217,4 +217,4 @@ which helps to relate technical metadata to business metadata.
 
       ![check](./assets/6-26_check.jpg "check")
       
-   [⏮️ Previous Module](../01_registering-and-scanning-adls-gen2-account/documentation.md) - [Next Module ⏭️ ](../03_approval-workflow-for-business-terms/documentation.md)
+   [⏮️ Previous Module](../04_searching-and-editing-assets/documentation.md) - [Next Module ⏭️ ](../06_approval-workflow-for-business-terms/documentation.md)
