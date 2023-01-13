@@ -64,7 +64,7 @@ Then you'll use Microsoft Purview to scan and classify that data.
 
 ![connect_to_rdp](./assets/10_connect_to_rdp.jpg "connect to rdp")
 
-11.	More Choices > Use a different account. Enter the username as `\sqladmin` and password as `Password@123` and click OK
+11.	More Choices > Use a different account. Enter the username as `\sqladmin` and password (Note - Generated while deploying ARM template) and click OK
 
 ![credentials](./assets/11_credentials.jpg "credentials")
 
@@ -200,7 +200,7 @@ The different flags in the Integration Runtime indicate the IR’s state of runn
 
 9.	Fill in required information i.e., Name and Value then click on Create
 
-Note: Value Should have Same Password which you want to connect to On-Prem SQL server. So, enter password as Password@123
+Note: Value Should have Same Password which you want to connect to On-Prem SQL server. So, enter password (Note - Generated while deploying ARM template).
 
 ![create_secret](./assets/43_create_secret.jpg "create secret")
 
