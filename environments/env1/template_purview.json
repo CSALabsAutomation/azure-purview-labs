@@ -14,6 +14,7 @@
     "contributorRoleDefinitionId": "B24988ac-6180-42a0-ab88-20f7382dd24c",
     "bootstrapRoleAssignmentId": "[guid(parameters('firstuniquestring'), parameters('seconduniquestring'))]",
     "location": "[resourceGroup().location]",
+    "sqlserveradminpassword": "[parameters('sqlserveradminpassword')]",
     "randomString": "[substring(guid(resourceGroup().id), 0, 6)]",
     "roleDefinitionprefix": "[format('/subscriptions/{0}/providers/Microsoft.Authorization/roleDefinitions', subscription().subscriptionId)]",
     "role": {
@@ -60,6 +61,12 @@
           "type": "String",
           "metadata": {
               "description": "firstuniquestring"
+          }
+      },
+     "sqlserveradminpassword": {
+          "type": "securestring",
+          "metadata": {
+              "description": "SQL server password"
           }
       },
       "seconduniquestring": {
@@ -181,7 +188,7 @@
       "location": "[variables('location')]",
       "properties": {
         "administratorLogin": "sqladmin",
-        "administratorLoginPassword": "sqlPassword!"
+        "administratorLoginPassword": "[variables('sqlserveradminpassword')]"
       }
     },
     {
@@ -343,11 +350,19 @@
               "description": "Windows Authentication user name for the source server"
           }
       },
-        "sourceWindowsAdminPassword": {
-          "defaultValue": "Password@123",
+       "sourceWindowsAdminPassword": {
+         "defaultValue": "Password@123",
           "type": "securestring",
           "metadata": {
               "description": "Windows Authentication password for the source server"
+          }
+      },
+            
+        "vmadminPassword": {
+          "defaultValue": "Password@123",
+          "type": "securestring",
+          "metadata": {
+              "description": "Virtual Machine Password"
           }
       }
           },
@@ -360,14 +375,14 @@
             "sqlVirtualMachineName": "[format('pvlab-{0}-sqlvm', parameters('randomString'))]",
             "adminUsername": "sqladmin",
             "upperString": "[toUpper(parameters('randomString'))]",
-            "adminPassword": "Password@123",
+            "adminPassword": "[parameters('vmadminPassword')]",
             "scriptLocation": "AddDatabaseToSqlServer.ps1",
             "bakFileLocation": "AdventureWorksLT2019.bak",
             "scriptFiles": [
               "[uri(parameters('_artifactsLocation'), concat(variables('scriptLocation'), parameters('_artifactsLocationSasToken')))]",
               "[uri(parameters('_artifactsLocation'), concat(variables('bakFileLocation'), parameters('_artifactsLocationSasToken')))]"
                    ],
-             "scriptParameters": "[concat('-userName ', parameters('sourceWindowsAdminUserName'), ' -password \"', parameters('sourceWindowsAdminPassword'))]"
+             "scriptParameters": "[concat('-userName ', parameters('sourceWindowsAdminUserName'), ' -password ', parameters('sourceWindowsAdminPassword'))]"
           },
           "resources": [
             {
